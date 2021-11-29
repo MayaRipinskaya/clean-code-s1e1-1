@@ -21,7 +21,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -46,16 +46,16 @@ body {
 }
 
 .task__list  {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task__list-item, .section__subtitle {
-  list-style:none;
+  list-style: none;
 }
 
-input,button{
-  outline:none;
+input, button{
+  outline: none;
 }
 
 button {
@@ -143,7 +143,7 @@ button:hover {
 }
 
 .task__list-item__input {
-  width: 226px
+  width: 226px;
 }
 
 .remove-btn:hover {
@@ -170,14 +170,14 @@ button:hover {
 /* Edit Task */
 
 .task__list-item__input {
-  display:none
+  display: none;
 }
 
 .task__list-item.edit-mode .task__list-item__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .task__list-item.edit-mode .task__list-item__value {
-  display:none;
+  display: none;
 }
